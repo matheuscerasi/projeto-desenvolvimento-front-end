@@ -10,8 +10,7 @@
 
 * Matheus Cerasi  
 * Eduardo Correa  
-* Igor Hideki  
-* Cauê Fortunato  
+* Igor Hideki    
 * Ryan Mangeth
 
 - **Data:** 21/09/2026  
