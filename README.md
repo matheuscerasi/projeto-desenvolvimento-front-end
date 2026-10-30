@@ -12,6 +12,7 @@
 * Eduardo Correa  
 * Igor Hideki    
 * Ryan Mangeth
+* Leonardo Rodrigues
 
 - **Data:** 21/09/2026  
 - **Professor:** Paulo Sérgio Fratta Junior  
