@@ -1599,3 +1599,86 @@ table tbody tr {
 
 
 /* FIM DO STYLE.CSS — ECOCICLO */
+/* ===== BOTÕES FLUTUANTES ===== */
+#botao-tema,
+#botao-topo {
+    position: fixed;
+    right: 24px;
+    width: 48px;
+    height: 48px;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+}
+
+#botao-tema {
+    bottom: 24px;
+    background: #ffffff;
+}
+
+#botao-topo {
+    bottom: 84px;
+    background: #16a34a;
+    color: #ffffff;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+#botao-topo.visivel {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* ===== MODO ESCURO ===== */
+body.modo-escuro {
+    background: #0e1a14;
+    color: #d7e4dc;
+}
+
+body.modo-escuro .header {
+    background: #13241b;
+    border-color: #23392d;
+}
+
+body.modo-escuro .nav a,
+body.modo-escuro .logo {
+    color: #d7e4dc;
+}
+
+body.modo-escuro .section {
+    background: #0e1a14;
+}
+
+body.modo-escuro .page-hero,
+body.modo-escuro .section-light {
+    background: #12211a;
+}
+
+body.modo-escuro h1,
+body.modo-escuro h2,
+body.modo-escuro h3 {
+    color: #eaf5ee;
+}
+
+body.modo-escuro p,
+body.modo-escuro li {
+    color: #b7c9be;
+}
+
+body.modo-escuro .card,
+body.modo-escuro .value-card {
+    background: #172a20;
+    border-color: #23392d;
+}
+
+body.modo-escuro input,
+body.modo-escuro textarea,
+body.modo-escuro select {
+    background: #172a20;
+    color: #eaf5ee;
+    border-color: #2c4636;
+}
