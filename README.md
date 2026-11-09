@@ -14,9 +14,8 @@ Apresentação de Slides: https://canva.link/zm2mutvx0y2mpam
   - Igor Hideki
   - Ryan Mangeth
   - Leonardo Rodrigues
-- **Data:** 21/09/2026
 - **Professor:** Paulo Sérgio Fratta Junior
-- **Disciplina:** Front-End para Web
+- **Disciplina:** Desenvolvimento Front-End para Web
 
 ## 2. Contexto e Justificativa
 
